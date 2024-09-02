@@ -1,0 +1,48 @@
+.side_container
+{
+    background-color:black;
+    height: 100vh;
+    width: 100px;
+}
+
+.list_container
+{
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    font-size: 10px;
+}
+
+.item, .item-1
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover, .item-1:hover
+{
+    background-color: #333;
+}
+
+.item-1
+{
+    padding: 10px 20px;
+}
+
+.container
+{
+ display: flex;
+}
+
+.youtube_con
+{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    width: 500px;
+    justify-content: space-around;
+}
