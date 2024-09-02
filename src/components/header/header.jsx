@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import { FaYoutube, FaSearch, FaMicrophone, FaCamera, FaBell, FaUserCircle } from "react-icons/fa";
+import Video from "../video/video";
 
 export default function Header() {
     return (
@@ -44,6 +45,17 @@ export default function Header() {
                         <FaUserCircle />
                     </div>
                 </div>    
+            </div>
+
+            <div className="youtubecom">
+                <Video />
+                <Video />
+                <Video />
+                <Video />
+                <Video />
+                <Video />
+                <Video />
+                <Video />
             </div>
         </div>
     );

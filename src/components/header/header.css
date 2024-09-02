@@ -133,3 +133,11 @@ i {
 .split3 svg:hover {
     color: #e74c3c; 
 }
+
+.youtubecom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 100px;
+    margin-left: 120px;
+    position: absolute;
+}
